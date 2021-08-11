@@ -1,0 +1,41 @@
+
+#spring:
+#  freemarker:
+#    template-loader-path: classpath:/templates/
+#    suffix: .ftl
+#    cache: false
+#    charset: UTF-8
+#    check-template-location: true
+#    content-type: text/html
+#    expose-request-attributes: false
+#    expose-session-attributes: false
+#    request-context-attribute: request
+
+# freemarker\u6A21\u677F\u5F15\u64CE
+spring:
+  freemarker:
+    allow-request-override: true
+    allow-session-override: true
+    cache: false
+    check-template-location: true
+    charset: UTF-8
+    content-type: text/html;
+    expose-request-attributes: true
+    expose-session-attributes: true
+    expose-spring-macro-helpers: true
+    template-loader-path: classpath:/templates/,classpath:/static/,classpath:/public/
+    prefix:
+    suffix: .ftl
+    request-context-attribute: request
+    settings:
+      template_update_delay: 0
+      url_escaping_charset: UTF-8
+      locale: UTF-8
+      datetime_format: yyyy-MM-dd HH:mm:ss
+      date_format: yyyy-MM-dd
+      time_format: HH:mm:ss
+      template_exception_handler: html_debug
+      # \u6570\u5B57\u683C\u5F0F\u5316\uFF0C\u65E0\u5C0F\u6570\u70B9
+      number_format: '0.#'
+      # \u8BBE\u7F6Efreemarker\u6807\u7B7E 0,1,2 0=\u81EA\u52A8\u8BC6\u522B\uFF0C\u9ED8\u8BA41
+      tag_syntax: 'auto_detect'

@@ -1,0 +1,19 @@
+server:
+  port: 9000
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///java0706?
+    username: root
+    password: 123
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+  mapper-locations: mapper/*.xml
+
+#logging:
+#  file:
+#    path: LogBack/LogBack.xml
+#logging:
+#  config: LogBack/LogBack.xml

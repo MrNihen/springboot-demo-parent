@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-demo-filter-interceptor/springboot-demo-filter-interceptor.iml" filepath="$PROJECT_DIR$/springboot-demo-filter-interceptor/springboot-demo-filter-interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-demo-freemarker/springboot-demo-freemarker.iml" filepath="$PROJECT_DIR$/springboot-demo-freemarker/springboot-demo-freemarker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-demo-freemarker2/springboot-demo-freemarker2.iml" filepath="$PROJECT_DIR$/springboot-demo-freemarker2/springboot-demo-freemarker2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-demo-mvc/springboot-demo-mvc.iml" filepath="$PROJECT_DIR$/springboot-demo-mvc/springboot-demo-mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-demo-mvc2/springboot-demo-mvc2.iml" filepath="$PROJECT_DIR$/springboot-demo-mvc2/springboot-demo-mvc2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-demo-redis/springboot-demo-redis.iml" filepath="$PROJECT_DIR$/springboot-demo-redis/springboot-demo-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-demo-vue/demo.iml" filepath="$PROJECT_DIR$/springboot-demo-vue/demo.iml" />
+    </modules>
+  </component>
+</project>
