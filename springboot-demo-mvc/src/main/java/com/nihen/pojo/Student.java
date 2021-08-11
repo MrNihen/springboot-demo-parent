@@ -10,7 +10,7 @@ import javax.persistence.Transient;
 import java.io.Serializable;
 
 /**
- * @Description
+ * @Description 学生实体类
  * @Author zhuguanglong
  * @Company
  * @Date 2021/08/02 1:09

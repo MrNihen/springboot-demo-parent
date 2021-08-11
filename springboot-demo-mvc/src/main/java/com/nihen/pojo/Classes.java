@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import java.io.Serializable;
 
 /**
- * @Description
+ * @Description 班级实体类
  * @Author zhuguanglong
  * @Company
  * @Date 2021/08/02 1:09
